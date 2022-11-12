@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="company.css">
     <title>Document</title>
 </head>
+
 <body onload="scrollDown()">
     <!-- NAVIGATION BAR -->
     <div id="navbar">
@@ -18,7 +20,7 @@
                     <img src="../photos/wma-logo.png" id="logo-img">
                 </a>
             </div>
-    
+
             <div class="nav-right">
                 <!-- NAVIGATION BAR - HOVER BUTTONS -->
                 <div class="dropdown">
@@ -64,9 +66,7 @@
                         </div>
                         <div class="content-container" id="content-container">
                             <div class="statement" id="statement">
-                                <div class="spec_button_die" 
-                                    id="spec_button_die" 
-                                    onclick="closeSpec()">
+                                <div class="spec_button_die" id="spec_button_die" onclick="closeSpec()">
                                     Close
                                 </div>
                                 <div class="spec">
@@ -78,14 +78,14 @@
                                     <div class="spec-container" id="spec-container">
                                         <h1>Specialization</h1>
                                         <p>
-                                            West Migration Agency LLC  ("WMA") assists noncitizens to join the U.S labor market for any Immigrant and Nonimmigrant Visas. WMA will help you explore the most common types of U.S work visas and the eligibility criteria for each. Find the right visa for you.
+                                            West Migration Agency LLC ("WMA") assists noncitizens to join the U.S labor market for any Immigrant and Nonimmigrant Visas. WMA will help you explore the most common types of U.S work visas and the eligibility criteria for each. Find the right visa for you.
                                         </p>
                                         <div class="spec_info">
                                             <div class="spec_info_buttons">
                                                 <div class="spec_button1" id="spec_button1" onclick="showVisa()">
                                                     Visa Category
                                                 </div>
-                                                <div class="spec_button2" id="spec_button2"  onclick="showExchange()">
+                                                <div class="spec_button2" id="spec_button2" onclick="showExchange()">
                                                     Exchange Visitor
                                                 </div>
                                             </div>
@@ -121,7 +121,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td class="td1">
-                                                               H - 2B
+                                                                H - 2B
                                                             </td>
                                                             <td class="td2">
                                                                 Temporary non-agricultural workers.
@@ -195,7 +195,7 @@
                                 <div class="content2" id="content2">
                                     <h1>WHAT ARE WE?</h1>
                                     <p>
-                                        It is a focused service recruiting firm supporting Temporary Employment Visas (H, L, O, P, Q)  and Exchange Visitor Visa (J). West Migration Agency ("WMA") acts as a liaison between the clients ("qualified applicants") and the designated lists of sponsors by the United States Department. We are looking for exceptional individuals ready to share their culture and experience life in the United States. Our expertise is that the team has handled immigration preparation and related matters over the years.
+                                        It is a focused service recruiting firm supporting Temporary Employment Visas (H, L, O, P, Q) and Exchange Visitor Visa (J). West Migration Agency ("WMA") acts as a liaison between the clients ("qualified applicants") and the designated lists of sponsors by the United States Department. We are looking for exceptional individuals ready to share their culture and experience life in the United States. Our expertise is that the team has handled immigration preparation and related matters over the years.
                                     </p>
                                 </div>
                                 <div class="content3" id="content3">
@@ -206,19 +206,13 @@
                                 </div>
                             </div>
                             <div class="card_container">
-                                <div class="card1" 
-                                    onmouseover="showContent1()"
-                                    onmouseout="hideContent()">
+                                <div class="card1" onmouseover="showContent1()" onmouseout="hideContent()">
                                     Who We Are:
                                 </div>
-                                <div class="card2" 
-                                    onmouseover="showContent2()"
-                                    onmouseout="hideContent()">
+                                <div class="card2" onmouseover="showContent2()" onmouseout="hideContent()">
                                     What We Are:
                                 </div>
-                                <div class="card3" 
-                                    onmouseover="showContent3()"
-                                    onmouseout="hideContent()">
+                                <div class="card3" onmouseover="showContent3()" onmouseout="hideContent()">
                                     What We Do:
                                 </div>
                             </div>
@@ -234,18 +228,17 @@
     <footer>
         <div class="foot-container">
             <div class="foot-subcontainer">
-
+                <!-- LOGO SECTION -->
                 <div class="left-foot">
                     <div class="foot-logo">
-                        <a href="home.php">
-                            <i class="fa-solid fa-globe"></i>
-                            LOGO
+                        <a id="foot-logo" href="../home/home.php">
+                            <img src="../photos/wma-logo.png" id="logo-img">
                         </a>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
-                    </div>
-                    <div class="foot-reserve">
+                        <!-- </div>
+                    <div class="foot-reserve"> -->
                         <p>
                             © (YEAR) West Migration Agency
                             All Rights Reserved
@@ -253,51 +246,58 @@
                     </div>
                 </div>
 
-                <div class="page-buttons">
-                    <a href="#home">
-                        ABOUT US
-                    </a>
-                    <a href="#home">
-                        CONTACT US
-                    </a>
-                    <a href="#home">
-                        REQUIREMENTS
-                    </a>
-                    <a href="#home">
-                        DISCLAIMER
-                    </a>
+                <!-- PAGE BUTTON SECTION -->
+                <div class="mid-foot">
+                    <div class="page-buttons">
+                        <a href="../company/company.php">
+                            ABOUT US
+                        </a>
+                        <a href="../contact/contact.php">
+                            CONTACT US
+                        </a>
+                        <a href="#home">
+                            REQUIREMENTS
+                        </a>
+                    </div>
                 </div>
 
+                <!-- SOCIAL MEDIA BUTTONS -->
                 <div class="socials">
-                    <div class="socials-title">
+                    <!-- <div class="socials-title">
                         <h2>Check us out!</h2>
-                    </div>
+                    </div> -->
                     <div class="socials-container">
-                        <a href="#" id="socialButton1">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-
-                        <a href="#" id="socialButton2">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-
-                        <a href="#" id="socialButton3">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-
-                        <a href="#" id="socialButton4">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-
-                        <a href="#" id="socialButton5">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
+                        <div>
+                            <a href="#" id="socialButton1">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton2">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton3">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton4">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton5">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </footer>
 </body>
 <script src="company.js"></script>
+
 </html>

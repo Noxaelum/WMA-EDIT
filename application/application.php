@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <script src="application.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <!-- NAVIGATION BAR -->
     <div id="navbar">
@@ -19,7 +21,7 @@
                     <img src="../photos/wma-logo.png" id="logo-img">
                 </a>
             </div>
-    
+
             <div class="nav-right">
                 <!-- NAVIGATION BAR - HOVER BUTTONS -->
                 <div class="dropdown">
@@ -63,7 +65,7 @@
                         WMA offers simplified and personalized methods for finding a program sponsor according to our client's eligibility and criteria. Therefore, our candidates have to undergo a very selective process before we contact the sponsor for final screening and selection. Our managers directly correspond with both the sponsor and selected candidates during this process.
                     </p>
                     <p>
-                        We also offer assisting paperwork and reviewing legal documents to ensure no red flags in the future. We maintain safe and secured data banks and only provide privileged and confidential information to the involved parties. 
+                        We also offer assisting paperwork and reviewing legal documents to ensure no red flags in the future. We maintain safe and secured data banks and only provide privileged and confidential information to the involved parties.
                     </p>
                 </div>
             </div>
@@ -74,7 +76,7 @@
                 <div class="steps_steps">
                     <h2>Step 1</h2>
                     <p>
-                        Determine which program is right for you.  See the program requirements comparison chart for an overview of each program category - Interest Form
+                        Determine which program is right for you. See the program requirements comparison chart for an overview of each program category - Interest Form
                     </p>
                     <h2>Step 2</h2>
                     <p>
@@ -97,12 +99,12 @@
                         Pay the SEVIS (Student and Exchange Visitor Information System) fee at <a href="https://www.fmjfee.com/i901fee/index.html">www.fmjfee.com</a>. Please retain a receipt for your records.
                     </p>
                     <h2>Step 7</h2>
-                    <p>  
-                        Go to the U.S Department of State website <a href="https://ceac.state.gov/genniv/">ceac.state.gov/genniv</a> to fill out an Online Nonimmigrant Visa Application Form DS-160 and pay the visa application fee of $160.00 Consult the website of the U.S embassy or consulate where you plan to apply for instructions on how to pay. 
+                    <p>
+                        Go to the U.S Department of State website <a href="https://ceac.state.gov/genniv/">ceac.state.gov/genniv</a> to fill out an Online Nonimmigrant Visa Application Form DS-160 and pay the visa application fee of $160.00 Consult the website of the U.S embassy or consulate where you plan to apply for instructions on how to pay.
                     </p>
                     <h2>Step 8</h2>
                     <p>
-                        After you pay the visa application fee, schedule your interview- the earlier the better! Consult the website of the U.S embassy or consulate where you plan to apply for instructions on how to schedule it. 
+                        After you pay the visa application fee, schedule your interview- the earlier the better! Consult the website of the U.S embassy or consulate where you plan to apply for instructions on how to schedule it.
                     </p>
                     <h2>Step 9</h2>
                     <p>
@@ -119,7 +121,7 @@
                     <h2>Step 10</h2>
                     <p>
                         The interviewing officer will inform you at the end of the interview whether your visa is approved or denied. If approved, the interviewing officer will tell you when you should expect to receive your visa.
-                        Continue to work with your sponsor to prepare to travel to the United States 
+                        Continue to work with your sponsor to prepare to travel to the United States
 
                     </p>
                 </div>
@@ -127,7 +129,7 @@
         </div>
     </section>
 
-<!-- ------------------------------------- -->
+    <!-- ------------------------------------- -->
     <!-- FOOTER BAR -->
     <footer>
         <div class="foot-container">
@@ -135,14 +137,14 @@
                 <!-- LOGO SECTION -->
                 <div class="left-foot">
                     <div class="foot-logo">
-                        <a id="logo" href="../home/home.php">
+                        <a id="foot-logo" href="../home/home.php">
                             <img src="../photos/wma-logo.png" id="logo-img">
                         </a>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
-                    </div>
-                    <div class="foot-reserve">
+                        <!-- </div>
+                    <div class="foot-reserve"> -->
                         <p>
                             © (YEAR) West Migration Agency
                             All Rights Reserved
@@ -151,47 +153,56 @@
                 </div>
 
                 <!-- PAGE BUTTON SECTION -->
-                <div class="page-buttons">
-                    <a href="../company/company.php">
-                        ABOUT US
-                    </a>
-                    <a href="../contact/contact.php">
-                        CONTACT US
-                    </a>
-                    <a href="#home">
-                        REQUIREMENTS
-                    </a>
+                <div class="mid-foot">
+                    <div class="page-buttons">
+                        <a href="../company/company.php">
+                            ABOUT US
+                        </a>
+                        <a href="../contact/contact.php">
+                            CONTACT US
+                        </a>
+                        <a href="#home">
+                            REQUIREMENTS
+                        </a>
+                    </div>
                 </div>
 
                 <!-- SOCIAL MEDIA BUTTONS -->
                 <div class="socials">
-                    <div class="socials-title">
+                    <!-- <div class="socials-title">
                         <h2>Check us out!</h2>
-                    </div>
+                    </div> -->
                     <div class="socials-container">
-                        <a href="#" id="socialButton1">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-
-                        <a href="#" id="socialButton2">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-
-                        <a href="#" id="socialButton3">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-
-                        <a href="#" id="socialButton4">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-
-                        <a href="#" id="socialButton5">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
+                        <div>
+                            <a href="#" id="socialButton1">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton2">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton3">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton4">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton5">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

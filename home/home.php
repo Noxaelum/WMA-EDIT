@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <script src="home.js"></script>
     <title>HOME</title>
 </head>
+
 <body>
     <!-- NAVIGATION BAR -->
     <div id="navbar">
@@ -19,7 +21,7 @@
                     <img src="../photos/wma-logo.png" id="logo-img">
                 </a>
             </div>
-    
+
             <div class="nav-right">
                 <!-- NAVIGATION BAR - HOVER BUTTONS -->
                 <div class="dropdown">
@@ -131,11 +133,11 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </article>
 
-<!-- ------------------------------------- -->
+    <!-- ------------------------------------- -->
     <!-- FOOTER BAR -->
     <footer>
         <div class="foot-container">
@@ -143,14 +145,14 @@
                 <!-- LOGO SECTION -->
                 <div class="left-foot">
                     <div class="foot-logo">
-                        <a id="logo" href="../home/home.php">
+                        <a id="foot-logo" href="../home/home.php">
                             <img src="../photos/wma-logo.png" id="logo-img">
                         </a>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
-                    </div>
-                    <div class="foot-reserve">
+                        <!-- </div>
+                    <div class="foot-reserve"> -->
                         <p>
                             © (YEAR) West Migration Agency
                             All Rights Reserved
@@ -159,47 +161,56 @@
                 </div>
 
                 <!-- PAGE BUTTON SECTION -->
-                <div class="page-buttons">
-                    <a href="../company/company.php">
-                        ABOUT US
-                    </a>
-                    <a href="../contact/contact.php">
-                        CONTACT US
-                    </a>
-                    <a href="#home">
-                        REQUIREMENTS
-                    </a>
+                <div class="mid-foot">
+                    <div class="page-buttons">
+                        <a href="../company/company.php">
+                            ABOUT US
+                        </a>
+                        <a href="../contact/contact.php">
+                            CONTACT US
+                        </a>
+                        <a href="#home">
+                            REQUIREMENTS
+                        </a>
+                    </div>
                 </div>
 
                 <!-- SOCIAL MEDIA BUTTONS -->
                 <div class="socials">
-                    <div class="socials-title">
+                    <!-- <div class="socials-title">
                         <h2>Check us out!</h2>
-                    </div>
+                    </div> -->
                     <div class="socials-container">
-                        <a href="#" id="socialButton1">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-
-                        <a href="#" id="socialButton2">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-
-                        <a href="#" id="socialButton3">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-
-                        <a href="#" id="socialButton4">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-
-                        <a href="#" id="socialButton5">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
+                        <div>
+                            <a href="#" id="socialButton1">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton2">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton3">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton4">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" id="socialButton5">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

@@ -9,11 +9,6 @@ html {
 body {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: url(../photos/phone.jpg);
 }
 
 #navbar {
@@ -26,11 +21,11 @@ body {
   height: 60px;
   background-color: white;
   /* width: 100%;
-    height: 60px;
-    display: block;
-    position: fixed;
-    transition: top 0.3s;
-    background-color: black; */
+  height: 60px;
+  display: block;
+  position: fixed;
+  transition: top 0.3s;
+  background-color: black; */
 }
 #nav-container {
   width: 100%;
@@ -140,55 +135,81 @@ body {
 }
 article {
   width: 100%;
-  height: 550px;
+  height: 600px;
 }
 .container {
   width: 100%;
-  height: inherit;
-  margin-top: 80px;
-
+  height: 800px;
+  margin: 60px 0 30px;
+  gap: 80px;
   display: flex;
-  justify-content: center;
+  flex-flow: column nowrap;
 }
 .subcontainer {
-  width: 98%;
-  height: 98%;
+  width: 100%;
+  height: 100%;
 }
 .content_container {
   width: 100%;
   height: 100%;
-
+  /* 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .content {
-  width: 50%;
-  height: 100%;
-
+  /* width: 100%; */
+  height: 350px;
+  gap: 10px;
+  margin: 0 100px 0;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+}
+.left h1 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.left p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.right {
+  width: 50%;
 }
 .content_title {
   width: 100%;
-  height: 150px;
+  height: 250px;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-image: url(../photos/phone.jpg);
 }
 .content_title h1 {
-  width: 500px;
-  height: 90px;
-  color: black;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
   font-size: 45px;
   font-weight: 400;
-  border-radius: 15px 0 15px 0;
+  /* border-radius: 15px 0 15px 0;
   border-top: 2px solid teal;
   border-left: 5px solid gold;
   border-right: 5px solid gold;
-  border-bottom: 2px solid teal;
-  background-color: rgb(255, 255, 255, 0.7);
+  border-bottom: 2px solid teal;*/
+  background-color: rgba(122, 122, 122, 0.267);
   font-family: Georgia, "Times New Roman", Times, serif;
 
   display: flex;
@@ -201,11 +222,11 @@ article {
   height: 100%;
 
   display: flex;
-  position: relative;
+  /* position: relative; */
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  z-index: 0;
+  /* z-index: 0; */
 }
 .card1,
 .card2,
@@ -413,22 +434,23 @@ article {
 }
 
 .gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 80%;
-  width: 80%;
+  /* overflow: hidden; */
+  /* background: none !important; */
+  height: 100%;
+  /* 
+  width: 100%; */
 
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 iframe {
-  opacity: 60%;
-  height: 75%;
-  width: 75%;
+  height: 100%;
+  /* opacity: 60%;
+  width: 75%; */
   border-radius: 15px;
-  transition: all 0.5;
+  /* transition: all 0.5; */
 
   display: flex;
   align-items: center;
@@ -437,7 +459,7 @@ iframe {
 
 footer {
   width: 100%;
-  height: 200px;
+  height: 150px;
   clear: both;
 }
 .foot-container {
@@ -446,9 +468,9 @@ footer {
   outline: 5px solid white;
   outline-offset: 5px;
   background-color: rgb(39, 39, 39);
-  /* background-size: cover;
-    background-position: center;
-    background-image: url(../photos/granite.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-image: url(../photos/granite.jpg);
 }
 .foot-subcontainer {
   width: 100%;
@@ -492,7 +514,6 @@ footer {
 }
 .foot-logo a {
   margin-left: 20px;
-  font-size: 30px;
   text-align: center;
   color: white;
   text-decoration: none;
@@ -504,21 +525,6 @@ footer {
   text-decoration: none;
 }
 
-.foot-reserve {
-  width: 100%;
-  height: 40%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.foot-reserve p {
-  margin-left: 20px;
-  font-size: 12px;
-  text-align: start;
-  color: white;
-  text-decoration: none;
-}
 .mid-foot {
   /* width: 30%; */
   height: inherit;
@@ -568,18 +574,24 @@ footer {
 }
 .socials-container {
   width: 70px;
-  padding: 30px 0 0;
+  padding: 20px 0 20px 0;
   gap: 10px;
   height: inherit;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 .socials-container a {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
+}
+.email_button button {
+  font-size: 20px;
+  color: white;
+  border: 0;
+  background-color: transparent;
 }
 #socialButton1:hover {
   color: blue;

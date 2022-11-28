@@ -17,7 +17,7 @@
         <div id="nav-container">
             <!-- NAVIGATION BAR - LOGO BUTTON -->
             <div class="nav-left">
-                <a id="logo" href="../home/home.php">
+                <a id="logo" href="https://westmigrationagency.com/">
                     <img src="../photos/wma-logo.png" id="logo-img">
                 </a>
             </div>
@@ -54,62 +54,38 @@
         </div>
     </div>
 
-    <article>
-        <div class="container">
-            <div class="subcontainer">
-                <div class="content_container">
-                    <div class="content">
-                        <div class="content_title">
-                            <h1>Connect with US!</h1>
-                        </div>
-                        <div class="card_container">
-                            <div class="card1" id="card1" onclick="phoneShow()">
-                                Telephone Number
-                            </div>
-                            <div class="card2" id="card2" onclick="emailShow()">
-                                E-Mail
-                            </div>
-                            <div class="card3" id="card3">
-                                <a href="#socials_title" onclick="highlight()">
-                                    Social Media
-                                </a>
-                            </div>
 
-                            <div class="telephone" id="telephone">
-                                415-633-6865
-                            </div>
-                            <div class="email" id="email">
-                                admin@westmigrationagency.us
-                            </div>
-                        </div>
+    <div class="container">
+        <header>
+            <div class="content_title">
+                <h1>Connect with US!</h1>
+            </div>
+        </header>
+        <section>
+            <div class="content">
+                <div class="left">
+                    <div>
+                        <h1>Company Number:</h1>
+                        <p>415-633-6865</p>
                     </div>
-                    <div class="map">
-                        <div class="mapouter">
-                            <div class="gmap_canvas">
-                                <iframe width="100%" height="90%" id="iframe" src="https://maps.google.com/maps?q=3400%20COTTAGE%20WAY%20STE,%20CA%2095825&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                </iframe>
-                                <a href="https://fmovies-online.net"></a>
-                                <br>
-                                <a href="https://www.embedgooglemap.net">
-                                </a>
-                            </div>
-                            <div class="address_title">
-                                <div class="address_card" id="address_card" onclick="mapAlter()">
-                                    Address
-                                </div>
-                                <div class="address_con" id="address_con">
-                                    <p>
-                                        3400 COTTAGE WAY STE. G2 #11495
-                                        SACRAMENTO, CA 95825
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                        <h1>Company Email:</h1>
+                        <p>admin@westmigrationagency.us</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="gmap_canvas">
+                        <iframe width="100%" height="90%" id="iframe" src="https://maps.google.com/maps?q=3400%20COTTAGE%20WAY%20STE,%20CA%2095825&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                        <a href="https://fmovies-online.net"></a>
+                        <br>
+                        <a href="https://www.embedgooglemap.net">
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </article>
+        </section>
+    </div>
 
     <!-- FOOTER BAR -->
     <footer>
@@ -118,14 +94,9 @@
                 <!-- LOGO SECTION -->
                 <div class="left-foot">
                     <div class="foot-logo">
-                        <a id="foot-logo" href="../home/home.php">
+                        <a id="foot-logo" href="https://westmigrationagency.com/">
                             <img src="../photos/wma-logo.png" id="logo-img">
                         </a>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </p>
-                        <!-- </div>
-                    <div class="foot-reserve"> -->
                         <p>
                             © (YEAR) West Migration Agency
                             All Rights Reserved
@@ -142,7 +113,7 @@
                         <a href="../contact/contact.php">
                             CONTACT US
                         </a>
-                        <a href="#home">
+                        <a href="../application/application.php">
                             REQUIREMENTS
                         </a>
                     </div>
@@ -155,13 +126,8 @@
                     </div> -->
                     <div class="socials-container">
                         <div>
-                            <a href="#" id="socialButton1">
+                            <a href="https://www.facebook.com/profile.php?id=100087001537840" id="socialButton1">
                                 <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#" id="socialButton2">
-                                <i class="fa-brands fa-twitter"></i>
                             </a>
                         </div>
                         <div>
@@ -169,15 +135,10 @@
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </div>
-                        <div>
-                            <a href="#" id="socialButton4">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#" id="socialButton5">
+                        <div class="email_button">
+                            <button id="socialButton5" onclick="copyToClipboard()">
                                 <i class="fa-solid fa-envelope"></i>
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
